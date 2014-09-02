@@ -3,7 +3,7 @@
 # https://github.com/adonescunha/python-S3
 
 
-from setuptools import setup
+from distutils.core import setup
 
 
 setup(
@@ -13,7 +13,7 @@ setup(
     author='Adones Cunha',
     author_email='adonescunha@gmail.com',
     url='https://github.com/adonescunha/python-S3',
-    packages=[
+    py_modules=[
         'S3'
     ],
 )
